@@ -1,0 +1,9 @@
+[user]
+	email = sahil.soni@rivigo.com
+	name = Sahil Soni
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
+[init]
+	templatedir = ~/.git-templates

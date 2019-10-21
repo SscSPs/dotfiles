@@ -1,0 +1,16 @@
+export LC_COLLATE=C
+export LANG=C
+export LC_CTYPE=en_IN
+
+alias pbcopy="xclip -sel clip"
+export EDITOR=/usr/bin/nano
+
+export VSCODE_CONFIG_DIR="$HOME/.config/Code - OSS/User"
+export VSCODE_EXTENSIONS_DIR="$HOME/.vscode-oss/extensions"
+
+export ANDROID_HOME=/mnt/data/personal/android/SDK
+export FLUTTER_ROOT=/home/sahil/private/packages/flutter
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$FLUTTER_ROOT/bin
+
+export CHROME_EXECUTABLE=google-chrome-stable
+alias google-chrome='google-chrome-stable'
